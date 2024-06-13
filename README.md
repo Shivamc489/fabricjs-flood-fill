@@ -5,7 +5,16 @@
 
 ## Motivation
 This module was modified from its original implementation to improve performance. The previous implementation was very slow, especially for large images or complex fill areas. The new implementation uses a more efficient algorithm to speed up the flood fill process.
+
 Original Implementation can be found at -> [JSFiddle](https://jsfiddle.net/av01d/dfvp9j2u/)
+
+## Performance Comparison
+### Original Implementation
+![Original Flood Fill](assets/original-flood-fill.gif)
+
+### Improved Implementation
+![Improved Flood Fill](assets/improved-flood-fill.gif)
+
 
 ## Installation
 To use `fabricjs-flood-fill`, simply include the `flood_fill.js` script in your project.
@@ -70,9 +79,4 @@ const rect = new fabric.Rect({
 canvas.add(rect);
 ```
 
-## Author
-- Original Author: Arjan Haverkamp (@av01d)
-- Modified by: Shivam Chauhan (@shivamc489)
-
-This was all possible thanks to original implementation of Arjan Haverkamp.
-You can check him out at -> [GitHub](https://github.com/av01d)
+This was all possible thanks to original implementation of [Arjan Haverkamp](https://github.com/av01d).
